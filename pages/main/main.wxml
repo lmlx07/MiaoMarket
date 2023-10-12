@@ -1,6 +1,6 @@
 <view class="a">
     <view class="b" catchtap="headicon">
-        <image class="blackboard" src="/img/icon/头图1.png" mode="aspectFit"/>
+        <image class="blackboard" src="/img/icon/head.png" mode="aspectFit"/>
     </view>
     <view class="b" >
         <picker class="choose" bindchange="bindPickerChange" value="{{market_number}}" range="{{market}}" range-key="name">

@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list1: [{"id":2,"url":"\u5bfc\u51fa3.png","price":40,"name":"\u5bfc\u51fa3","section":13}],
+    list1: [{"id":2,"url":"icon.png","price":40,"name":"icon","section":13}],
     list2:[],
     list3:[],
     market:[],
