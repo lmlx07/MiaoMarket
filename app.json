@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/secret/secret",
+    "pages/sell/sell",
+    "pages/main/main",
+    "pages/headicon/headicon",
+    "pages/sendcontent/sendcontent",
+    "pages/comment/comment"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "喵喵集市",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+      "list": [
+          {
+            "pagePath": "pages/main/main",
+            "text": "买家",
+            "iconPath": "img/icon/导出1.png",
+            "selectedIconPath": "img/icon/导出3.png"
+            
+            },
+            {
+                "pagePath": "pages/sell/sell",
+                "text": "卖家",
+                "iconPath": "img/icon/导出1.png",
+                "selectedIconPath": "img/icon/导出3.png"
+                
+            }
+        ]
+  }
+}

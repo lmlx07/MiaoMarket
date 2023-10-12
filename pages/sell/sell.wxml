@@ -1,0 +1,14 @@
+<view class="a" style="background-image:url(/img/drawable-hdpi/sell.png);background-size: cover;">
+  
+    <view class="abox">
+        
+    </view>
+    <view class="bbox"></view>
+    <view class="cbox" >
+        <view class="content" wx:for="2" wx:key="id">
+            <view catchtap="ChooseMarket" id="id" class="click">暂未发布{{item.name}}</view>
+           
+        </view>
+    </view>
+  
+</view>

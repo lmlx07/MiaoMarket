@@ -1,0 +1,39 @@
+
+<view class="box">
+    <view class="b">
+        <view class="b_1">
+            <image class="b1" src="/img/drawable-hdpi/喵.png" mode="aspectFit"/>
+            <image class="b2" src="/img/drawable-hdpi/喵1.png" mode="aspectFit"/>
+            <image class="b3" src="/img/drawable-hdpi/集市.png" mode="aspectFit"/>
+        </view>
+        
+    </view>
+    <view class="b">
+        <image class="b41" src="/img/drawable-hdpi/重复网格 1.png" mode="aspectFit"/>
+        <image class="b42" src="/img/drawable-hdpi/重复网格 1.png" mode="aspectFit"/>
+        <image class="b43" src="/img/drawable-hdpi/椭圆 4.png" mode="aspectFit"/>
+        <image class="b44" src="/img/drawable-hdpi/矩形 13.png" mode="aspectFit"/>
+        <image class="b45" src="/img/drawable-hdpi/多边形 3.png" mode="aspectFit"/>
+        <image class="b46" src="/img/drawable-hdpi/矩形 14.png" mode="aspectFit"/>
+        <image class="b47" src="/img/drawable-hdpi/微信图片_20230715183218.png" mode="aspectFit"/>
+        <image class="b48" src="/img/drawable-hdpi/微信图片_-1.png" mode="aspectFit"/>
+    </view>
+    <view  class="b">
+        <image class="b6" src="/img/drawable-hdpi/欢迎使用.png" mode="aspectFit"/>
+    </view>
+    <view class="b">
+        <view class="c">
+            
+            <view class="cbox" catchtap="login">
+                <image   class="c1" src="/img/drawable-hdpi/授权登录.png" mode="aspectFit"/>
+                <image class="c3" src="/img/drawable-hdpi/矩形 15.png" mode="aspectFit"/>
+                <image class="c2" src="/img/drawable-hdpi/矩形 6.png" mode="aspectFit"/>
+            </view>
+            <view class="cbox" catchtap="secret"> 
+                <image class="c1" src="/img/drawable-hdpi/密码登录.png" mode="aspectFit"/>
+                <image class="c3" src="/img/drawable-hdpi/矩形 15.png" mode="aspectFit"/>
+                <image class="c2" src="/img/drawable-hdpi/矩形 6.png" mode="aspectFit"/>
+            </view>
+        </view>
+    </view>
+</view>
