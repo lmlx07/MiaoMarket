@@ -5,7 +5,7 @@
         </view>
         <view class="b">
             <view class="block">
-                <image class="camera" src="/img/drawable-hdpi/camera.png" mode="aspectFit"/>
+                <image class="camera" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/camera.png" mode="aspectFit"/>
                 <view class="text2">晒出您的商品吧</view>
             </view>
         </view>
@@ -13,7 +13,7 @@
     <view class="c"></view>
     <view class="a">
         <view class="block1">
-            <image class="icon1" src="/img/drawable-hdpi/stick.png" mode="aspectFit"/>
+            <image class="icon1" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/stick.png" mode="aspectFit"/>
             <view class="text3">您的集市地点：</view>
             <view class="contentblock">请选择</view>
         </view>

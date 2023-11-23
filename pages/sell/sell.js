@@ -20,22 +20,22 @@ Page({
   },
   onLoad: function (options) {
     let that = this;
-        wx.request({
-          url: 'http://localhost:8000/index.php/index/letting',
+        // wx.request({
+        //   url: 'http://localhost:8000/index.php/index/letting',
 
-          data:{
+        //   data:{
 
-          },
-          header:{
-              'content-type':'application/json'
-          },
-          success(res){
-            console.log(res)
-            that.setData({
-                market :res.data.market
-            })
-           }
-        })
+        //   },
+        //   header:{
+        //       'content-type':'application/json'
+        //   },
+        //   success(res){
+        //     console.log(res)
+        //     that.setData({
+        //         market :res.data.market
+        //     })
+        //    }
+        // })
   },
 
   /**

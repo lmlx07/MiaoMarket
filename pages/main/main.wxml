@@ -1,6 +1,6 @@
 <view class="a">
     <view class="b" catchtap="headicon">
-        <image class="blackboard" src="/img/icon/head.png" mode="aspectFit"/>
+        <image class="blackboard" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/icon/head.png" mode="aspectFit"/>
     </view>
     <view class="b" >
         <picker class="choose" bindchange="bindPickerChange" value="{{market_number}}" range="{{market}}" range-key="name">
@@ -11,7 +11,7 @@
     <view class="b">
     <!-- 集市1 -->
         <view class="content" wx:if="{{market_number==0}}" wx:for="{{list1}}" wx:key="id" catch:tap="click">
-            <image class="image" src="{{'/img/icon/' + item.url}}" mode="aspectFit"/>
+            <image class="image" src="{{'cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/icon/' + item.url}}" mode="aspectFit"/>
             <view class="c">
                 <text class="text">{{item.name}}</text>
                 <text class="text">{{item.price}}元</text>
@@ -21,7 +21,7 @@
         </view>
         <!-- 集市2 -->
         <view class="content" wx:if="{{market_number==1}}" wx:for="{{list2}}" wx:key="id">
-            <image class="image" src="{{'/img/icon/' + item.url}}" mode="aspectFit"/>
+            <image class="image" src="{{'cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/icon/' + item.url}}" mode="aspectFit"/>
             <view class="c">
                 <text class="text">{{item.name}}</text>
                 <text class="text">{{item.price}}元</text>
@@ -30,7 +30,7 @@
         </view>
         <!-- 集市3 -->
         <view class="content" wx:if="{{market_number==2}}" wx:for="{{list3}}" wx:key="id">
-            <image class="image" src="{{'/img/icon/' + item.url}}" mode="aspectFit"/>
+            <image class="image" src="{{'cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/icon/' + item.url}}" mode="aspectFit"/>
             <view class="c">
                 <text class="text">{{item.name}}</text>
                 <text class="text">{{item.price}}元</text>

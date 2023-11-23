@@ -33,23 +33,23 @@ Page({
   },
   onLoad: function (options) {
         let that = this;
-        wx.request({
-          url: 'http://localhost:8000/index.php/index/letting',
-        //   url:'https://www.miaomarket.cn',  
-          data:{
+        // wx.request({
+        //   url: 'http://localhost:8000/index.php/index/letting',
+        // //   url:'https://www.miaomarket.cn',  
+        //   data:{
 
-          },
-          header:{
-              'content-type':'application/json'
-          },
-          success(res){3
-            console.log(res)
-            that.setData({
-                list1 :res.data.letting,
-                market :res.data.market
-            })
-           }
-        })
+        //   },
+        //   header:{
+        //       'content-type':'application/json'
+        //   },
+        //   success(res){3
+        //     console.log(res)
+        //     that.setData({
+        //         list1 :res.data.letting,
+        //         market :res.data.market
+        //     })
+        //    }
+        // })
   },
 
   /**

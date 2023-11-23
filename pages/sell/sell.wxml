@@ -1,11 +1,10 @@
-<view class="a" style="background-image:url(/img/drawable-hdpi/sell.png);background-size: cover;">
+<view><image src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/sell.png"/></view>
+<view class="a">
   
-    <view class="abox">
-        
-    </view>
+
     <view class="bbox"></view>
-    <view class="cbox" >
-        <view class="content" wx:for="2" wx:key="id">
+    <view class="cbox">
+        <view class="content" wx:for="3" wx:key="id">
             <view catchtap="ChooseMarket" id="id" class="click">暂未发布{{item.name}}</view>
            
         </view>
