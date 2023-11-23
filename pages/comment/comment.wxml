@@ -1,2 +1,47 @@
 <!--pages/comment/comment.wxml-->
+<scroll-view class="container2" scroll-y enable-flex>
+  <view class="background"></view>
+  <view class="a"></view>
+ <view class="message">
+    <view class="photo"></view>
+    <view class="description">商品描述</view>
+  </view>
+  <view class="details">
+    <view class="details-circular"></view>
+    <view class="details-description">某人</view>
+    <view class="details-click">
+    <view class="details-cirxular2" bind:tap="check"></view>
+    <view>查看详情</view>
+    </view>
+  </view>
 
+  <view class="comment">
+    <view class="comment-title">评论</view>
+    <view class="comment-container" wx:for="{{comment}}" wx:key="id">
+      <view class="comment-name">
+        <view class="comment-name-circle"></view>
+        <view class="comment-name-words">{{item.name}}</view>
+      </view>
+      <view class="comment-content">{{item.text}}</view>
+      <!-- <view style="display: flex;justify-content: center;">
+        <view class="comment-reply" >
+          <view class="comment-reply-name">
+            <view class="comment-name-circle"></view>
+            <view class="comment-name-words">{{}}</view>
+          </view>
+          <view class="comment-content">{{}}</view>
+          <view class="comment-reply-click" bind:tap="expandcomment">点击查看详情</view>
+        </view>
+      </view> -->
+    </view>
+  </view>
+  
+  <view class="input">
+  <input class="input-text" placeholder="发表你的评论吧" bindinput="inputChange" value="{{e_Comment}}"/>
+  <view class="input-button" bind:tap="submitComment">发布</view>
+  </view>
+  
+</scroll-view>
+
+
+  

@@ -1,5 +1,6 @@
 {
   "pages":[
+    
     "pages/index/index",
     "pages/logs/logs",
     "pages/secret/secret",
@@ -7,8 +8,8 @@
     "pages/main/main",
     "pages/headicon/headicon",
     "pages/sendcontent/sendcontent",
+    "pages/details/details",
     "pages/comment/comment"
-
   ],
   "window":{
     "backgroundTextStyle":"light",

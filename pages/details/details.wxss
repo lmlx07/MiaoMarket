@@ -1,0 +1,39 @@
+.body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.picture{
+  height: 240rpx;
+  width: 240rpx;
+  background-color:  rgba(204, 204, 204, 1);
+  margin-top: -400rpx;
+}
+.name{
+  margin-top: 50rpx;
+
+}
+.message{
+  height: 500rpx;
+  width: 600rpx;
+  background-color:  rgba(204, 204, 204, 1);
+  margin-top: 50rpx;
+}
+.message-text{
+  text-align: center;
+  margin-top: 10rpx;
+}
+.message-number{
+  padding-top: 70rpx;
+  padding-left: 60rpx;
+}
+.message-wx{
+  padding-top: 70rpx;
+  padding-left: 60rpx;
+}
+.message-qq{
+  padding-top: 70rpx;
+  padding-left: 60rpx;
+}
