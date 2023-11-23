@@ -29,11 +29,11 @@
                 <image class="c3" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/square.png" mode="aspectFit"/>
                 <image class="c2" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/square1.png" mode="aspectFit"/>
             </view>
-            <view class="cbox" catchtap="secret"> 
+            <!-- <view class="cbox" catchtap="secret"> 
                 <image class="c1" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/codeLogin.png" mode="aspectFit"/>
                 <image class="c3" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/square.png" mode="aspectFit"/>
                 <image class="c2" src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/square1.png" mode="aspectFit"/>
-            </view> 
+            </view>  -->
         </view>
     </view>
 </view>

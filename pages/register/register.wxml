@@ -1,0 +1,15 @@
+<view><image src="cloud://miao-8gto6edkb901828d.6d69-miao-8gto6edkb901828d-1319435240/img/drawable-hdpi/Background1.png"/></view>
+<view class="a" style="background-repeat: no-repeat;background-size:100% 100%;background-position: bottom;">
+    <view class="head">注册账户</view>
+    <view class="b">
+        <view class = "c">账号：</view>
+        <input class = "d" bindinput="Input_name"  placeholder="请输入账号名" value="{{e_Name}}"/>
+    </view>
+    <view class="b">
+        <view class = "c">密码：</view>
+        <input class = "d" bindinput="Input_number" placeholder="请输入密码" value="{{e_Number}}"/>
+    </view>
+    <view class="register" catchtap="secret">密码登录</view>
+    <button class="button" bindtap="judgeInput">确认</button>
+    
+</view>

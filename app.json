@@ -1,6 +1,5 @@
 {
-  "pages":[
-    
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/secret/secret",
@@ -9,33 +8,32 @@
     "pages/headicon/headicon",
     "pages/sendcontent/sendcontent",
     "pages/details/details",
-    "pages/comment/comment"
+    "pages/comment/comment",
+    "pages/register/register"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "喵喵集市",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents",
   "tabBar": {
-      "list": [
-          {
-            "pagePath": "pages/main/main",
-            "text": "买家",
-            "iconPath": "img/icon/icon.png",
-            "selectedIconPath": "img/icon/icon1.png"
-            
-            },
-            {
-                "pagePath": "pages/sell/sell",
-                "text": "卖家",
-                "iconPath": "img/icon/icon.png",
-                "selectedIconPath": "img/icon/icon1.png"
-                
-            }
-        ]
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "买家",
+        "iconPath": "img/icon/icon.png",
+        "selectedIconPath": "img/icon/icon1.png"
+      },
+      {
+        "pagePath": "pages/sell/sell",
+        "text": "卖家",
+        "iconPath": "img/icon/icon.png",
+        "selectedIconPath": "img/icon/icon1.png"
+      }
+    ]
   }
 }

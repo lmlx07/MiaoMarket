@@ -13,6 +13,11 @@ Page({
           e_Number: e.detail.value
         });
       },
+    register: function() {
+      wx.redirectTo({         // 使用redirectTo方法进行跳转
+        url: '/pages/register/register'  // 目标页面的路径
+    })
+    },  
     judgeInput() {
     const e_Name = this.data.e_Name;
     const e_Number = this.data.e_Number;
