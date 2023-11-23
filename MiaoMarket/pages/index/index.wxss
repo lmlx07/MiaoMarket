@@ -1,0 +1,171 @@
+/* 
+.face {
+    width: 150rpx;
+    height: 150rpx ;
+    border-radius: 50%;
+  }
+  .nickName {
+    margin-top: 30rpx;
+  }
+  .warp {
+    text-align: center;
+  } */
+
+body{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.b{
+    
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.b_1{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    height: 109px;
+    width: 105px;
+    margin-top: -18px;
+}
+.b2{
+    width: 97px;
+    height: 126px;
+    
+}
+.b3{
+    
+    right: 0%;
+    top: 1%;
+    height: 50px;
+    width: 100px;
+}
+.b41{/*网格*/
+    margin: 5%;
+    margin-left: 12%;
+    width: 254px;
+    height: 80px;
+}
+.b42{/*网格*/
+    margin: 5%;
+    margin-left: -12%;
+    width: 254px;
+    height: 80px;
+}
+.b43{/*装饰*/
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left: 10%;
+    margin-top: -40%;
+    z-index: 5;
+}
+.b44{/*装饰*/
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left: 15%;
+    margin-top: 45%;
+}
+.b45{/*装饰*/
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left: 35%;
+    margin-top: -50px;
+}
+.b46{/*装饰*/
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left: 69%;
+    margin-top: 48%;
+}
+.b47{/*叶子*/
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    margin-top: -35%;
+    left:20%;
+    
+}
+.b48{/*叶子*/
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    margin-top: 32%;
+    left: 43%;
+    
+}
+
+.b6{
+    width: 60px;
+    height: 56px;
+    margin-left: -50%;
+}
+.c{
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff5e5;
+    border-start-end-radius: 50px 50px;
+    border-start-start-radius: 50px 50px;
+    border-end-start-radius: 50px 50px;
+    border-end-end-radius: 50px 50px;
+    height: 209px;
+    width: 90%;
+}
+.cbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+.c1{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    z-index: 10;
+}
+.c2{
+    width: 280px;
+    height: 50px;
+    z-index: 9;
+}
+.c3{
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    z-index: 8;
+}

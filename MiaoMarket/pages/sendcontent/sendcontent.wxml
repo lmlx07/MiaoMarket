@@ -1,0 +1,38 @@
+<view class="back">
+    <view class="a">
+        <view class="b">
+            <view class="text1">请描述您的商品用途，基本信息...</view>
+        </view>
+        <view class="b">
+            <view class="block">
+                <image class="camera" src="/img/drawable-hdpi/camera.png" mode="aspectFit"/>
+                <view class="text2">晒出您的商品吧</view>
+            </view>
+        </view>
+    </view> 
+    <view class="c"></view>
+    <view class="a">
+        <view class="block1">
+            <image class="icon1" src="/img/drawable-hdpi/stick.png" mode="aspectFit"/>
+            <view class="text3">您的集市地点：</view>
+            <view class="contentblock">请选择</view>
+        </view>
+        <view class="block1">
+            <view class="text3">定价：</view>
+            <view class="text3" class="icon">¥</view>
+            
+            <view class="contentblock">0.00</view>
+        </view>
+        <view class="block1">
+            <view class="text3">摊位号：</view>
+            <view class="contentblock">1号摊位</view>
+        </view>
+    </view>
+    <view class="c1">
+      <view>
+        <button class="c2" bindtap="plus" type="primary" >发布</button>
+      </view>
+    
+    </view>
+    
+</view>
